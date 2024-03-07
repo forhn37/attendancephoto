@@ -1,13 +1,10 @@
 import Image from "next/image";
-import BigButton from "./comp/button";
+import BigButton from "../comp/button";
 
-export default function Home() {
+export default function Main() {
   return (
     <main className="w-full h-full">
-      <div className="w-full h-3/5 flex items-end justify-center">
-        {/* 사진파일에서 justify-center가 적용되지 않는문제
-        그리고 image태그를 사용하는 부분
-        flex적용시 사진이 길어지는 부분 알아보기 */}
+      <div className="w-full h-3/5 flex items-end ">
         <Image
           src="/wifeflower.png"
           width={500}
