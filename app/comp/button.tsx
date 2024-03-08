@@ -7,7 +7,7 @@ interface ButtonProps {
 
 const BigButton: React.FC<ButtonProps> = ({ value, href }) => {
   return (
-    <Link href={href} className='bg-green-800 rounded-lg text-white w-4/5 h-1/6 font-semibold text-xl flex justify-center items-center'>
+    <Link href={href} className='bg-green-800 rounded-sm text-white w-4/5 h-1/6 font-semibold text-xl flex justify-center items-center'>
       <button >
         {value}
       </button>
