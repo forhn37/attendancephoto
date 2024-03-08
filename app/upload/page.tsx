@@ -21,7 +21,7 @@ export default function Upload() {
         <div className="h-1/5 flex flex-col justify-end items-end mr-2">
           <input type="file" className="hidden" id="fileInput" accept="image/*" />
           <label htmlFor="fileInput" className="text-3xl">💽</label>
-          <p className="text-sm">사진올려요!</p>
+          <p className="text-sm">사진첨부</p>
         </div>
         <div className="h-2/5 w-full font-semibold">
           <p>write</p>
