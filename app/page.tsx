@@ -16,7 +16,7 @@ export default function Home() {
         />
       </div>
       <div className="h-2/5">
-        <p className="w-full h-1/5 mt-2 text-center">
+        <p className="w-full h-1/5 mt-2 text-center font-semibold">
         사랑하는 henry & edward 출근 사진첩
         </p>
         <div className="w-full h-4/5 flex items-start justify-center mt-2">
